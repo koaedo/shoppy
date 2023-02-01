@@ -9,7 +9,7 @@ export function AuthContextProvider({children}){
 
     useEffect(()=>{
         onUserStateChange(user => {
-            console.log(user);
+            // console.log(user);
             setUser(user);
         });
     },[]);
